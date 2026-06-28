@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer droplet glow shadow -->
+    <path
+        android:pathData="M54,16 C54,16 26,48 26,68 C26,83.46 38.54,96 54,96 C69.46,96 82,83.46 82,68 C82,48 54,16 54,16 Z"
+        android:fillColor="#1500E5FF" />
+
+    <!-- Core Water Droplet -->
+    <path
+        android:pathData="M54,20 C54,20 30,50 30,68 C30,81.25 40.75,92 54,92 C67.25,92 78,81.25 78,68 C78,50 54,20 54,20 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="20"
+                android:endX="54"
+                android:endY="92"
+                android:type="linear">
+                <item
+                    android:color="#00E5FF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#0083B0"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glossy Highlight Curve -->
+    <path
+        android:pathData="M42,56 C38,62 38,70 42,76 C40,74 38,70 38,64 C38,58 40,54 42,50 C44,46 48,42 50,40 C48,44 44,50 42,56 Z"
+        android:fillColor="#80FFFFFF" />
+</vector>

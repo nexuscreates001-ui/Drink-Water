@@ -1,0 +1,6 @@
+{
+  "name": "Droplet",
+  "description": "Daily Hydration App. Log your daily water intake with one tap, set personalized daily goals based on your weight and activity, track streaks, view weekly heatmap statistics, and manage smart reminders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
